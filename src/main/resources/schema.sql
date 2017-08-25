@@ -1,7 +1,4 @@
-drop database company;
-create database company;
-use company;
-
+drop table if exists JOB_TITLE;
 create table JOB_TITLE (
 	id INT NOT NULL auto_increment,
    title VARCHAR(20) default NULL,
@@ -10,6 +7,7 @@ create table JOB_TITLE (
    PRIMARY KEY (id)
 );
 
+drop table if exists EMPLOYEE;
 create table EMPLOYEE (
    id INT NOT NULL auto_increment,
    first_name VARCHAR(20) default NULL,
@@ -20,6 +18,7 @@ create table EMPLOYEE (
    FOREIGN KEY (title_id) REFERENCES JOB_TITLE(id)
 );
 
+drop table if exists AUDIT_ACTION;
 create table AUDIT_ACTION (
 	id INT NOT NULL auto_increment,
     audit_action VARCHAR(4000) default NULL,
