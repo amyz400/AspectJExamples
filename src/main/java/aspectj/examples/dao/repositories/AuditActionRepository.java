@@ -1,6 +1,6 @@
-package aspectj.examples.tx.dao.repositories;
+package aspectj.examples.dao.repositories;
 
-import aspectj.examples.tx.dao.AuditAction;
+import aspectj.examples.dao.AuditAction;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

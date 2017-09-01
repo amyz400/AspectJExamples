@@ -1,6 +1,6 @@
-package aspectj.examples.tx.dao.repositories;
+package aspectj.examples.dao.repositories;
 
-import aspectj.examples.tx.dao.Employee;
+import aspectj.examples.dao.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

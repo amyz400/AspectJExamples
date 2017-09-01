@@ -1,10 +1,10 @@
-package aspectj.examples.tx.dao.repositories;
+package aspectj.examples.dao.repositories;
 
-import aspectj.examples.tx.dao.JobTitle;
+import aspectj.examples.dao.JobTitle;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * Created by aziring on 8/25/17.
+ * Created by aziring
  */
 public interface JobTitleRepository extends JpaRepository<JobTitle, Integer>{
 
